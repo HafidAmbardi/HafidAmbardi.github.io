@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #131516;
+  color: white;
+}
+hr {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+.me {
+  border: 5px solid #555;
+  border-radius: 50%;
+}
+.w {
+  margin-bottom: 200px;
+}
+.card {
+  margin: 10px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-weight: 400;
+  flex-direction: row;
+}
+.flex-container2 {
+  flex-direction: column;
+  text-align: center;
+}
+.icon {
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  transition: all 0.5s ease;
+}
+.icon:hover {
+  color: rgb(255, 153, 0);
+  font-size: 1.1em;
+  transition: all 0.5s ease;
+}
+.icon:hover {
+  color: rgb(255, 153, 0);
+  font-size: 1.1em;
+  transition: all 0.5s ease;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.topnav a {
+  display: block;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+
+.topnav a:hover {
+  background-color: #fcbf49;
+  color: black;
+  transition: all 0.5s;
+}
+
+.special {
+  background-color: #f77f00;
+  color: #353535;
+}
+.new-section {
+  font-family: "Roboto Slab";
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  vertical-align: middle;
+}
+.row {
+  overflow: hidden;
+}
+.logo {
+  float: right;
+  padding-right: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 150px;
+  text-align: right;
+}
+.desc1 {
+  text-align: left;
+  padding-left: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 150px;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.desc2 {
+  font-weight: 400;
+}
+.specific {
+  border: 5px solid #2b2d42;
+  border-radius: 20%;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-50%);
+  transition: all 0.5s;
+}
+
+.hidden2 {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(50%);
+  transition: all 0.5s;
+}
+.hidden3 {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 0.5s;
+}
+.hidden4 {
+  opacity: 0;
+  filter: blur(5px);
+  scale: 0.8;
+  transition: all 0.5s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  scale: 1;
+}
